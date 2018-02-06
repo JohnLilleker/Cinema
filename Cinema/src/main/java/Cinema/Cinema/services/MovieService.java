@@ -56,4 +56,8 @@ public class MovieService {
 		}
 	}
 
+	public int countGenre(String genre) {
+		return (int) movies.values().stream().filter(movie -> movie.getGenre().equalsIgnoreCase(genre)).count();
+	}
+
 }
