@@ -56,4 +56,8 @@ public class MovieService {
 		}
 	}
 
+	public int countGenre(String string) {
+		return 0;
+	}
+
 }
